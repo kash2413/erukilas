@@ -1,0 +1,41 @@
+#kdbutton{
+  float: right;
+  background-color: #fff;
+  padding: 2px 16px 10px 16px;
+  margin-right: 8px;
+  border: 1px solid #e6e6e6;
+  border-radius: 23px;
+  margin-top: 8px;
+}
+#kdbutton.active{
+  background-color: #333;
+  border: 1px solid #333;
+  color:#EEE;
+}
+#czas_przyg_filters{
+  width: 100%;
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+#kdcztax{
+  display:none;
+}
+#kdcztax.actt{
+  display: block;
+  text-align: center;
+}
+#kdcztax a{
+  display: inline-block;
+  background-color: #fff;
+  padding: 10px 16px;
+  margin-right: 8px;
+  margin-top: 8px;
+  border: 1px solid #e6e6e6;
+  border-radius: 23px;
+}
+#kdcztax a.activetax{
+  background-color: #333;
+  border: 1px solid #333;
+  color:#EEE;
+}
